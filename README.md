@@ -61,5 +61,4 @@ Este recurso simula una tabla de usuarios para propósitos de login o filtrado p
 
 }
 
-export default App;
-```
+
