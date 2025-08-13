@@ -1,98 +1,110 @@
 {
-  "reservas": [
-    {
-      "id": "1",
-      "cliente": "Juan Pérez",
-      "fecha": "2025-07-20",
-      "hora": "13:00",
-      "mesa": 1,
-      "personas": 4,
-      "estado": "confirmada",
-      "notas": "Cumpleaños"
-    },
-    {
-      "id": "2",
-      "cliente": "Ana Talledo",
-      "fecha": "2025-07-21",
-      "hora": "14:00",
-      "mesa": 1,
-      "personas": 4,
-      "estado": "confirmada",
-      "notas": "Cumpleaños"
-    },
-    {
-      "id": "3",
-      "cliente": "Julio Pérez",
-      "fecha": "2025-07-22",
-      "hora": "15:00",
-      "mesa": 1,
-      "personas": 6,
-      "estado": "confirmada",
-      "notas": "Aniversario"
-    }
-  ],
-  "mesas": [
-    {
-      "id": "1",
-      "nombre": "Mesa 1",
-      "capacidad": 4
-    },
-    {
-      "id": "2",
-      "nombre": "Mesa 2",
-      "capacidad": 2
-    },
-    {
-      "id": "3",
-      "nombre": "Mesa 3",
-      "capacidad": 6
-    }
-  ],
   "usuarios": [
     {
       "id": "1",
-      "usuario": "admin1",
-      "nombre": "admin1",
-      "password": "admin123",
-      "correo": "admin1@demo.com",
-      "telefono": "999111222",
-      "rol": "administrador"
+      "correo": "admin@admin.com",
+      "clave": "admin123",
+      "rol": "admin"
     },
     {
       "id": "2",
-      "usuario": "admin2",
-      "nombre": "admin2",
-      "password": "admin456",
-      "correo": "admin2@demo.com",
-      "telefono": "999222333",
-      "rol": "administrador"
+      "correo": "usuario@ejemplo.com",
+      "clave": "usuario123",
+      "rol": "usuario"
     },
     {
       "id": "3",
-      "usuario": "cliente1",
-      "nombre": "Juan Pérez",
-      "password": "cliente123",
-      "correo": "cliente1@demo.com",
-      "telefono": "955111111",
-      "rol": "cliente"
+      "correo": "usuario@ejemplo.com",
+      "clave": "usuario123",
+      "rol": "usuario"
+      
     },
     {
       "id": "4",
-      "usuario": "cliente2",
-      "nombre": "Ana Talledo",
-      "password": "cliente456",
-      "correo": "cliente2@demo.com",
-      "telefono": "955222222",
-      "rol": "cliente"
+      "correo": "usuario@ejemplo.com",
+      "clave": "usuario123",
+      "rol": "usuario"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "1",
+      "mesa": "1",
+      "comensales": "4",
+      "fecha": "2025-07-30",
+      "hora": "19:30",
+      "cliente": "Ana",
+      "telefono": "999888777",
+      "correo": "ana@email.com",
+      "notas": "Mesa en ventana"
+    },
+    {
+      "id": "2",
+      "mesa": "2",
+      "comensales": "2",
+      "fecha": "2025-08-01",
+      "hora": "20:00",
+      "cliente": "Luis Gómez",
+      "telefono": "987654321",
+      "correo": "luisgomez@gmail.com",
+      "notas": "Celebración de aniversario"
+    },
+    {
+      "id": "3",
+      "mesa": 3,
+      "comensales": "6",
+      "fecha": "2025-08-02",
+      "hora": "18:45",
+      "cliente": "María Torres",
+      "telefono": "923456789",
+      "correo": "maria.torres@example.com",
+      "notas": "Mesa lejos del aire acondicionado",
+      "gmail": "dilan@gmail.com"
+    },
+    {
+      "id": "4",
+      "mesa": "1",
+      "comensales": "4",
+      "fecha": "2025-08-03",
+      "hora": "21:00",
+      "cliente": "Pedro Sánchez",
+      "telefono": "912345678",
+      "correo": "pedro.sanchez@hotmail.com",
+      "notas": "Cliente frecuente"
     },
     {
       "id": "5",
-      "usuario": "cliente3",
-      "nombre": "Raúl Méndez",
-      "password": "cliente789",
-      "correo": "cliente3@demo.com",
-      "telefono": "955333333",
-      "rol": "cliente"
+      "mesa": "2",
+      "comensales": "2",
+      "fecha": "2025-08-05",
+      "hora": "19:00",
+      "cliente": "Elena Rivas",
+      "telefono": "955123456",
+      "correo": "elena.rivas@mail.com",
+      "notas": "Mesa tranquila para reunión"
+    },
+    {
+      "id": "6",
+      "mesa": 5,
+      "comensales": "15",
+      "fecha": "2025-08-02",
+      "hora": "11:30",
+      "cliente": "María Torres",
+      "telefono": "923456789",
+      "correo": "",
+      "notas": "",
+      "gmail": "dilan@gmail.com"
+    },
+    {
+      "id": "7",
+      "mesa": 4,
+      "comensales": "55",
+      "fecha": "2025-08-12",
+      "hora": "04:04",
+      "cliente": "shalome estrada",
+      "telefono": "923456789",
+      "correo": "dilandsdsyty@gmail.com",
+      "notas": ""
     }
   ]
 }
